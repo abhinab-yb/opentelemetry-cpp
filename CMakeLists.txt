@@ -202,7 +202,7 @@ option(
   WITH_API_ONLY
   "Only build the API (use as a header-only library). Overrides WITH_EXAMPLES and all options to enable exporters"
   OFF)
-option(WITH_EXAMPLES "Whether to build examples" ON)
+option(WITH_EXAMPLES "Whether to build examples" OFF)
 
 # This requires CURL, OFF by default.
 option(
