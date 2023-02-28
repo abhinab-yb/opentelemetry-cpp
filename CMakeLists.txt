@@ -171,7 +171,7 @@ option(WITH_JAEGER "DEPRECATED - Whether to include the Jaeger exporter" OFF)
 
 option(WITH_NO_GETENV "Whether the platform supports environment variables" OFF)
 
-option(BUILD_TESTING "Whether to enable tests" ON)
+option(BUILD_TESTING "Whether to enable tests" OFF)
 
 option(WITH_BENCHMARK "Whether to build benchmark program" ON)
 
