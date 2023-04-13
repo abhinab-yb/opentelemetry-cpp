@@ -107,10 +107,10 @@ opentelemetry::sdk::common::ExportResult OtlpHttpExporter::Export(
     OTEL_INTERNAL_LOG_ERROR("[OTLP HTTP Client] ERROR: Export "
                             << span_count << " trace span(s) error: " << static_cast<int>(result));
   }
-  else
-  {
-    OTEL_INTERNAL_LOG_DEBUG("[OTLP HTTP Client] Export " << span_count << " trace span(s) success");
-  }
+  // else
+  // {
+  //   OTEL_INTERNAL_LOG_DEBUG("[OTLP HTTP Client] Export " << span_count << " trace span(s) success");
+  // }
   return opentelemetry::sdk::common::ExportResult::kSuccess;
 #endif
 }
